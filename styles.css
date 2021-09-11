@@ -206,10 +206,11 @@ select {
          font-size: 1rem;
      }
  }
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 480px) {
      .keypic{
        visibility:none;
      }
+     
  }
 
 .top-s{
@@ -222,7 +223,7 @@ margin: 15px auto 0;
   position:absolute;
   height: 150px;
   width: 150px;
-  margin:20% 5% auto;
+  margin:20% 5% 150;
 
 }
 .last{
