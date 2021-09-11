@@ -206,7 +206,7 @@ select {
  @media only screen and (max-width: 400px) {
 
 .view{
-  margin:0px;
+  margin:auto;
 }
 #mazeContainer {
     position:absolute;
@@ -217,14 +217,14 @@ select {
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin: 0px auto 0 20%;
+    margin: 0px auto 20% 0;
     background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
       background-size: 100% ;
 
   }
 
     #mazeCanvas {
-        margin:auto auto auto 20%; 
+        margin:auto auto 20% auto; 
         display: block;
         border: solid 5px black;
 
