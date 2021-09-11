@@ -27,7 +27,7 @@ body {
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin: auto;
+    margin:  auto auto 0 auto;
     background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
       background-size: 100% ;
 
@@ -109,10 +109,10 @@ select {
     text-align: center;
     height: auto;
     width: auto;
-    margin: auto;
+    margin:  auto auto 0 auto;
   }
     #menu{
-        margin: auto;
+        margin: auto auto 0 auto ;
 
         box-sizing: border-box;}
 
@@ -216,14 +216,14 @@ select {
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin: 10px auto auto 10px;
+    margin: 0px auto 0 20%;
     background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
       background-size: 100% ;
 
   }
 
     #mazeCanvas {
-        margin:auto auto auto 10px; 
+        margin:auto auto auto 20%; 
         display: block;
         border: solid 5px black;
 
@@ -242,7 +242,7 @@ margin: 15px auto 0;
   position:absolute;
   height: 150px;
   width: 150px;
-  margin:20% 5% auto;
+  margin:20% 5% 0;
 
 }
 .last{
@@ -250,7 +250,7 @@ margin: 15px auto 0;
   position: absolute;
   font-family: 'Allison', cursive;
   /* font-family: 'Noto Serif', serif; */
-  color: #fff;
+  color: #000;
 margin:15% 0 0 3%;
   font-size: 2rem;
 }
