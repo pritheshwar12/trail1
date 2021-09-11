@@ -180,10 +180,10 @@ select {
      }
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 500px) {
      .last{
-       visibility: hidden;
-         position: absolute;
+       
+         
          font-family: 'Allison', cursive;
          /* font-family: 'Noto Serif', serif; */
          color: #000;
