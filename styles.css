@@ -182,7 +182,7 @@ select {
 
  @media only screen and (max-width: 400px) {
      .last{
-       /* visibility: hidden; */
+       visibility: hidden;
          position: absolute;
          font-family: 'Allison', cursive;
          /* font-family: 'Noto Serif', serif; */
@@ -206,7 +206,7 @@ select {
  @media only screen and (max-width: 400px) {
 
 .view{
-  margin-top:5px;
+  margin:0px;
 }
 #mazeContainer {
     transition-property: opacity;
