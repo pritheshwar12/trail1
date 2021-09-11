@@ -191,8 +191,7 @@ select {
        height: auto;
 
    }
-     .keypic{
-     visibility:none;}
+     
 
  }
 
@@ -209,13 +208,7 @@ select {
  }
  @media only screen and (max-width: 400px) {
      .keypic{
-       background-image: url("https://i.ibb.co/xMdqjF6/computer-arrow.png");
-       background-size: contain;
-
-       position:absolute;
-       height: 10px;
-       width: 100px;
-       margin:20% 5% auto;
+       visibility:none;
      }
  }
 
