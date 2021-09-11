@@ -203,6 +203,15 @@ select {
      }
  }
 
+ @media only screen and (max-width: 400px) {
+
+.view{
+  margin-top:5px; 
+}
+
+ }
+
+
 .top-s{
 margin: 15px auto 0;
 }
@@ -233,3 +242,4 @@ margin:15% 0 0 3%;
   background-color: #c6c6c6;
   padding: 10px;
 }
+
