@@ -210,6 +210,7 @@ select {
 }
 #mazeContainer {
     position:absolute;
+    top:0px;
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: linear;
