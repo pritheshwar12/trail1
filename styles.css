@@ -206,8 +206,28 @@ select {
  @media only screen and (max-width: 400px) {
 
 .view{
-  margin-top:5px; 
+  margin-top:5px;
 }
+#mazeContainer {
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    /* top: $menuHeight; */
+    opacity: 0;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.30);
+    margin: 10px auto auto 10px;
+    background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
+      background-size: 100% ;
+
+  }
+
+    #mazeCanvas {
+        margin:auto auto auto 10px; 
+        display: block;
+        border: solid 5px black;
+
+    }
 
  }
 
@@ -242,4 +262,3 @@ margin:15% 0 0 3%;
   background-color: #c6c6c6;
   padding: 10px;
 }
-
