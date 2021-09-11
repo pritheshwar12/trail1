@@ -136,7 +136,7 @@ select {
         height: auto;
 
     }
-}
+
 
 
 #border {
@@ -178,6 +178,20 @@ select {
      input, select{
          width: 120px;
      }
+ }
+ @media only screen and (max-width: 400px) {
+
+   #view {
+       position: absolute;
+
+       bottom: 25%;
+       left: 0;
+       right: 0;
+       width: 100%;
+       height: auto;
+
+   }
+
  }
 
  @media only screen and (max-width: 400px) {
@@ -233,5 +247,6 @@ margin:15% 0 0 3%;
   background-color: #c6c6c6;
   padding: 10px;
 }
+
 
 
