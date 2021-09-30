@@ -26,7 +26,10 @@ body {
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin: auto;}
+    margin: auto;
+     background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
+      background-size: 100% ;
+}
 
     #mazeCanvas {
         margin: 0;
