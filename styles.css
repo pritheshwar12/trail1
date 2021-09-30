@@ -36,7 +36,9 @@ body {
         display: block;
         border: solid 1px black;
     }
-
+.top-s{
+margin:15px auto 0;
+}
 
 input,
 select {
