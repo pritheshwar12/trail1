@@ -16,30 +16,24 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-
 }
 
 #mazeContainer {
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: linear;
-    /* top: $menuHeight; */
+    top: $menuHeight;
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin:  auto auto 0 auto;
-    background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
-      background-size: 100% ;
-
-  }
+    margin: auto;
 
     #mazeCanvas {
         margin: 0;
         display: block;
-        border: solid 5px black;
-
+        border: solid 1px black;
     }
-
+}
 
 input,
 select {
@@ -56,21 +50,21 @@ select {
     font-size: 15px;
     text-align: center;
     text-decoration: none;
-    appearance: none;}
+    appearance: none;
     &:hover {
         background-color: rgba(0, 0, 0, 0.70);
     }
     &:active {
-        background-color:black;
+        background-color: black;
     }
     &:focus {
         outline: none;
     }
-
+}
 
 
 .custom-select {
-    display: inline-block;}
+    display: inline-block;
     select {
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -79,7 +73,7 @@ select {
         background-repeat: no-repeat;
         background-position: 125px center;
     }
-
+}
 
 #Message-Container {
     visibility: hidden;
@@ -93,15 +87,16 @@ select {
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.30);
-    z-index: 1;}
+    z-index: 1;
     #message {
-        width: 500px;
-        height:500px;
+        width: 300px;
+        height: 300px;
         position: fixed;
-        top: 25%;
-        left: 40%;
-
-
+        top: 50%;
+        left: 50%;
+        margin-left: -150px;
+        margin-top: -150px;
+    }
 }
 
 #page {
@@ -109,41 +104,34 @@ select {
     text-align: center;
     height: auto;
     width: auto;
-    margin:  auto auto 0 auto;
-  }
-    #menu{
-        margin: auto auto 0 auto ;
-
-        box-sizing: border-box;}
-
-        h1{
-            margin-top:20px ;
+    margin: auto;
+    #menu {
+        margin: auto;
+        padding: 10px;
+        height: 65px;
+        box-sizing: border-box;
+        h1 {
+            margin: 0;
             margin-bottom: 10px;
             font-weight: 600;
-            font-size: 8rem;
+            font-size: 3.2rem;
         }
-        p{
-          font-size: 2rem;
-        }
-
+    }
     #view {
         position: absolute;
-
-        bottom: 1%;
+        top:65px;
+        bottom: 0;
         left: 0;
         right: 0;
         width: 100%;
         height: auto;
-
+           
     }
 }
 
-
-#border {
-    border: 8px white solid;
+.border {
+    border: 1px black solid;
     border-radius: 5px;
-
-
 }
 
 
@@ -156,9 +144,9 @@ select {
     width: 100vw;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(-45deg, #EE7752,#FFE459, #E73C7E,#B97A95 ,#23A6D5, #23D5AB);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     background-size: 400% 400%;
-    animation:Gradient 10s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
 @keyframes Gradient {
@@ -179,88 +167,3 @@ select {
          width: 120px;
      }
  }
-
- @media only screen and (max-width: 500px) {
-     .last{
-       
-         
-         font-family: 'Allison', cursive;
-         /* font-family: 'Noto Serif', serif; */
-         color: #000;
-       margin:15% 0 0 3%;
-         font-size: 1rem;
-     }
- }
- @media only screen and (max-width: 400px) {
-     .keypic{
-       background-image: url("https://i.ibb.co/xMdqjF6/computer-arrow.png");
-       background-size: contain;
-
-       position:absolute;
-       height: 150px;
-       width: 150px;
-       margin:20% 5% auto;
-     }
- }
-
- @media only screen and (max-width: 400px) {
-
-.view{
-  margin:auto;
-}
-#mazeContainer {
-    position:absolute;
-    top:0px;
-    transition-property: opacity;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-    /* top: $menuHeight; */
-    opacity: 0;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.30);
-    margin: 0px auto 20% 0;
-    background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
-      background-size: 100% ;
-
-  }
-
-    #mazeCanvas {
-        margin:auto auto 20% auto; 
-        display: block;
-        border: solid 5px black;
-
-    }
-
- }
-
-
-.top-s{
-margin: 15px auto 0;
-}
-.keypic{
-  background-image: url("https://i.ibb.co/xMdqjF6/computer-arrow.png");
-  background-size: contain;
-
-  position:absolute;
-  height: 150px;
-  width: 150px;
-  margin:20% 5% 0;
-
-}
-.last{
-/* visibility: hidden; */
-  position: absolute;
-  font-family: 'Allison', cursive;
-  /* font-family: 'Noto Serif', serif; */
-  color: #fff;
-margin:15% 0 0 3%;
-  font-size: 2rem;
-}
-.cc{
-  position: absolute;
-  margin: 10% 0 0 10%;
-}
-#on-off{
-  background-color: #c6c6c6;
-  padding: 10px;
-}
