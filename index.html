@@ -1,58 +1,35 @@
-
-<!DOCTYPE html>
-
-<html lang="en">
-
+<html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Allison&family=Noto+Serif&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-</head>
-  <body onload="popUp">
-
-
+  <body>
     <div id="gradient"></div>
-
     <div id="page">
-
       <div id="Message-Container">
         <div id="message">
           <h1>Congratulations!</h1>
           <p>You are done.</p>
           <p id="moves"></p>
-          <input id="okBtn" type="button" class="btn btn-lg btn-warning" onclick="toggleVisablity('Message-Container')" value="Cool!" />
+          <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="Cool!" />
         </div>
       </div>
       <div id="menu">
-          <a href="https://desolate-dawn-08511.herokuapp.com/"> <button type="button" class="btn btn-lg btn-success top-s"name="button">return</button> </a>
-          <br>
         <div class="custom-select">
           <select id="diffSelect">
                     <option value="10">Easy</option>
                     <option value="15">Medium</option>
                     <option value="25">Hard</option>
-                    <option value="38">Extreme</option>
+                    <option value="38">Extreme</option>                                      
                 </select>
         </div>
-        <button type="button"  class="btn btn-lg btn-outline-primary"  name="button">
-          <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" /></button>
-
+        <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" />
       </div>
       <div id="view">
         <div id="mazeContainer">
-          <canvas id="mazeCanvas" id="border" height="600" width="600"></canvas>
+          <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
         </div>
       </div>
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
-
-
-<script type="text/javascript"   src="app.js"></script>
   </body>
 </html>
-
