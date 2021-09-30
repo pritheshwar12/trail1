@@ -8,7 +8,6 @@ swal({
 });
 }
 
-
 function rand(max) {
   return Math.floor(Math.random() * max);
 }
@@ -45,9 +44,7 @@ function changeBrightness(factor, sprite) {
 
 function displayVictoryMess(moves) {
   document.getElementById("moves").innerHTML = "You Moved " + moves + " Steps.";
-  toggleVisablity("Message-Container");
-  call();
-
+  toggleVisablity("Message-Container");  
 }
 
 function toggleVisablity(id) {
@@ -534,12 +531,12 @@ window.onload = function() {
          console.log("Runs");
          setTimeout(function(){
            makeMaze();
-         }, 500);
+         }, 500);         
        }
   };
   sprite = new Image();
   sprite.src =
-    "https://i.ibb.co/b1WxS2n/819071.jpg" +
+    "https://image.ibb.co/dr1HZy/Pf_RWr3_X_Imgur.png" +
     "?" +
     new Date().getTime();
   sprite.setAttribute("crossOrigin", " ");
@@ -551,7 +548,7 @@ window.onload = function() {
   };
 
   finishSprite = new Image();
-  finishSprite.src = "https://i.ibb.co/H47NGF4/carrot-png-25861.png"+
+  finishSprite.src = "https://image.ibb.co/b9wqnJ/i_Q7m_U25_Imgur.png"+
   "?" +
   new Date().getTime();
   finishSprite.setAttribute("crossOrigin", " ");
@@ -561,7 +558,7 @@ window.onload = function() {
     console.log(completeTwo);
     isComplete();
   };
-
+  
 };
 
 window.onresize = function() {
@@ -582,7 +579,7 @@ window.onresize = function() {
 };
 
 function makeMaze() {
-  // document.getElementById("mazeCanvas").classList.add("border");
+  //document.getElementById("mazeCanvas").classList.add("border");
   if (player != undefined) {
     player.unbindKeyDown();
     player = null;
@@ -597,3 +594,4 @@ function makeMaze() {
     document.getElementById("mazeContainer").style.opacity = "100";
   }
 }
+
