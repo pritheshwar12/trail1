@@ -535,8 +535,7 @@ window.onload = function() {
        }
   };
   sprite = new Image();
-  sprite.src =
-    "https://image.ibb.co/dr1HZy/Pf_RWr3_X_Imgur.png" +
+  sprite.src =  "https://i.ibb.co/b1WxS2n/819071.jpg" +
     "?" +
     new Date().getTime();
   sprite.setAttribute("crossOrigin", " ");
@@ -548,7 +547,7 @@ window.onload = function() {
   };
 
   finishSprite = new Image();
-  finishSprite.src = "https://image.ibb.co/b9wqnJ/i_Q7m_U25_Imgur.png"+
+  finishSprite.src = "https://i.ibb.co/H47NGF4/carrot-png-25861.png"+
   "?" +
   new Date().getTime();
   finishSprite.setAttribute("crossOrigin", " ");
