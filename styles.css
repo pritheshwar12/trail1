@@ -71,6 +71,7 @@ select {
 
 .custom-select {
     display: inline-block;
+    margin: 1px auto 10px;
 }
     select {
         -webkit-appearance: none;
