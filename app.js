@@ -1,4 +1,4 @@
-
+alert("enjoy");
 function popUp(){
 swal({
   title: "MAZE!",
