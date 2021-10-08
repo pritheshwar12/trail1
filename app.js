@@ -1,11 +1,4 @@
 
- swal({
-  title: "MAZE!",
-  text: "Use Arrow Or Click And Drag",
-  icon: "info",
-  button: "ENJOY!",
-});
-
 
 function rand(max) {
   return Math.floor(Math.random() * max);
