@@ -1,4 +1,4 @@
-
+alert("working");
 swal({
   title: "MAZE!",
   text: "Use Arrow Or Click And Drag",
